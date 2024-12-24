@@ -5,7 +5,6 @@ fn main() {
     let mut current_dir = current_dir.as_path();
 
     loop {
-        dbg!(current_dir);
         if current_dir.join("Cargo.toml").is_file() {
             print!("🦀 ");
             return;
