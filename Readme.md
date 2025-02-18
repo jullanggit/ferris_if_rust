@@ -1,4 +1,4 @@
-## Discontinued
+# Discontinued
 Just put this in your `.config/starship.toml`
 ```
 [rust]
